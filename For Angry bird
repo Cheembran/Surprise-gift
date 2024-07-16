@@ -8,10 +8,10 @@
 </head>
 <body>
     <div class="container">
-        <h1>Hey [Manisha], I have a question for you!</h1>
+        <h1>Hey [Manisha Menon], I have a question for you!</h1>
         <button id="revealButton">Click to reveal</button>
         <div id="gift" class="hidden">
-            <img src="gift.jpg" alt="Gift">
+            <img src="Rose.jpg" alt="Gift">
             <p>Surprise! Here's a gift for you!</p>
         </div>
     </div>
