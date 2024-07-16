@@ -18,32 +18,3 @@
     <script src="script.js"></script>
 </body>
 </html>
-body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #f0f0f0;
-}
-
-.container {
-    text-align: center;
-    padding: 20px;
-    border: 2px solid #ccc;
-    border-radius: 10px;
-    background-color: white;
-}
-
-#gift {
-    margin-top: 20px;
-}
-
-.hidden {
-    display: none;
-}
-document.getElementById('revealButton').addEventListener('click', function() {
-    document.getElementById('gift').classList.remove('hidden');
-    this.style.display = 'none';
-});
